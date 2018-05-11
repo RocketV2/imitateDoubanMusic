@@ -1,0 +1,102 @@
+
+/*
+	头部样式
+ */
+
+.header{
+	height: 2.4rem;
+	background-color: #545652;
+	color: #d5d5d5;
+}
+
+.header a{
+	text-decoration: none;
+	color: #d5d5d5;
+	padding: 0 1rem;
+}
+
+/*头部导航样式*/
+.header-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header-list ul li {
+	display: inline-block;
+	line-height: 2.4rem;
+}
+
+.header-list ul a:hover{
+	color: #ffffff;
+}
+
+/*头部提示下载客户端*/
+.header-tip,.header-info{
+	position: relative;
+	float: right;
+	line-height: 2.4rem;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.header-tip-wrap{
+	width: 17.5rem;
+	height: 25rem;
+	position: absolute;
+	left: -4.2rem;
+	text-align: center;
+	color: #000;
+	font-size: 1.5rem;
+	border: 1px solid #ddd;	
+	border-top: none;
+	z-index: 999;
+	background-color: #fff;
+	margin-top: 1px;
+}
+.header-tip-wrap p{
+	width: 8.2rem;
+	height: 8.2rem;
+	background-image: url(https://img3.doubanio.com/dae/accounts/resources/321e246/shire/assets/nav_doubanapp_6@2x.png);
+	background-repeat: no-repeat;
+	background-size: 8.2rem 8.2rem;
+	/*margin: 80px 0 20px 55px;*/
+	margin: 0 auto;
+	margin-top: 6rem;
+	margin-bottom: 1.5rem;
+}
+
+/*头部登录注册*/
+.header-info{
+	margin-right: 1rem;
+}
+.header-info a:hover, .header-tip a:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

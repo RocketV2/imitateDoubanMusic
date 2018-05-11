@@ -1,2 +1,2 @@
-# imitateDoubanMovie
-使用React模仿豆瓣电影pc端
+# imitateDoubanMusic
+使用React模仿豆瓣音乐

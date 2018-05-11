@@ -1,0 +1,115 @@
+
+/*
+	上部导航、搜索
+ */
+
+.nav-wrap{
+	background-color: #f0f3ef;
+}
+
+/*搜索部分*/
+.nav-top-wrap{
+	width: 90rem;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+
+.nav-logo{
+	width: 12rem;
+	height: 4rem;
+	display: inline-block;
+}
+.nav-logo a{
+	color: #f37e00;
+	text-decoration: none;
+	line-height: 4rem;
+	font-size: 2rem;
+}
+
+.nav-search-wrap{
+	width: 40rem;
+	height: 2.5rem;
+	display: inline-block;
+	position: relative;
+
+}
+.search-input input{
+	width: 36rem;
+	height: 2.5rem;
+	padding: 0 1rem;
+	outline: none;
+	box-sizing: border-box;
+	border: none;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	box-shadow: 0.1rem 0.1rem #ddd;
+}
+.search-input-icon{
+	width: 4rem;
+	height: 2.6rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #ddd;
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	background-image: url(../icons/search.png);
+	background-repeat: no-repeat;
+	background-size: 50% 70%;
+	background-position: 50% 50%;
+}
+
+hr{
+	border-top: 1px solid #ddd;
+}
+/*各个话题列表*/
+.nav-list-wrap{
+	width: 90rem;
+	margin: 0 auto;
+	padding: 0.5rem 0;
+}
+.nav-list-wrap li{
+	display: inline-block;
+	margin-right: 2rem;
+}
+.nav-list-wrap li a{
+	text-decoration: none;
+	color: #545c5f;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+.nav-list-wrap li a:hover{
+	color: #fff;
+	background-color: #545c5f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
