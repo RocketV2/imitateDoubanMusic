@@ -1,0 +1,39 @@
+
+.disfo-wrap{
+	width: 100%;
+
+}
+
+/*标题*/
+
+.disfo-wrap ul{
+	background-color: #fff;
+	padding-bottom: 0.5rem;
+}
+.disfo-wrap ul li{
+	display: inline-block;
+	font-size: 1rem;
+	color: #999;
+}
+.disfo-wrap ul span{
+	padding: 0 1rem;
+}
+
+.disfo-wrap ul li.disfo-title-active{
+	color: #000;
+	font-size: 1.3rem;
+}
+
+
+
+/*主题*/
+.disfo-list{
+	box-sizing: border-box;
+	width: 100%;
+	height: 40rem;
+	padding: 1rem 0 0 3.5rem;
+	background-color: #f5f7f8;
+	border-top: 2px solid #139d72;
+
+}
+

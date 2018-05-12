@@ -1,0 +1,102 @@
+
+
+.slider-sim-wrap{
+	width: 60rem;
+	height: 20rem;
+	margin-bottom: 2rem;
+}
+
+.slider-simple{
+	width: 60rem;
+	height: 20rem;
+	position: relative;
+	overflow: hidden;
+}
+
+ul.slider-content{
+	width: 300rem;
+	height: 20rem;
+	position: absolute;
+}
+ul.slider-content li{
+	width: 60rem;
+	height: 20rem;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*左右切换按钮*/
+.slider-simple a{
+	text-decoration: none;
+	position: absolute;
+	display: block;
+	width: 2.5rem;
+	height: 4rem;
+	background-color: #352f2a;
+	background-size: 50% 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slider-simple a[data-type='left']{
+	top: 8rem;
+	left: 0;
+	background-image: url(./icons/left.png);
+}
+.slider-simple a[data-type='right']{
+	top: 8rem;
+	right: 0;
+	background-image: url(./icons/right.png);
+}
+.slider-simple a[data-type='left']:hover{
+	background-size: 80% 80%;
+	background-image: url(./icons/left-active.png);
+}
+.slider-simple a[data-type='right']:hover{
+	background-size: 80% 80%;
+	background-image: url(./icons/right-active.png);
+}
+
+/*表示图片位置的下标*/
+/*ul 设置成width , text-align
+  li 设置成display:inline-block;可让多个li居中
+*/
+ul.slider-index{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	line-height: 12px;
+	margin: 5px 0;
+}
+ul.slider-index li{
+	position: relative;
+	background-color: #fff;
+	opacity: 0.6;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	margin: 0 4px;
+}
+.slider-index-active{
+	background-color: #139d72!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

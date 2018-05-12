@@ -1,0 +1,68 @@
+
+
+.single-wrap{
+	position: relative;
+	display: inline-block;
+	margin: 1.5rem 3rem 2rem 0;
+}
+/*音乐图片信息*/
+.cell-pic{
+	width: 11rem;
+	height: 12rem;
+	box-sizing: border-box;
+	/*padding: 0.5rem;*/
+	background-color: #fff;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.cell-pic img{
+	width: 10rem;
+	height: 11rem;
+	position: absolute;
+	margin: 0.5rem;
+	z-index: 900;
+}
+.cell-pic-active{
+	position: absolute;
+
+	box-sizing: border-box;
+	width: 10rem;
+	height: 11rem;
+	margin: 0.5rem;
+	padding: 1rem 1.5rem;
+
+	background-color: #000;
+	opacity: 0.7;
+	overflow: hidden;
+	z-index: 999;
+}
+.cell-pic-active p{
+	margin: 0.3rem 0;
+	color: #fff;
+	text-overflow: ellipsis;
+
+}
+.show-z{
+	display: block;
+}
+.hide-z{
+	display: none;
+}
+
+
+/*歌手信息、风格*/
+.cell-info{
+	/*position: relative;*/
+	text-align: center;
+}
+.cell-info span{
+	display: block;
+	box-sizing: border-box;
+	padding-top: 0.5rem;
+	font-size: 1rem;
+	color: #9a999a;
+}
+.cell-info span:nth-of-type(1){
+	color: #139d72;
+	font-size: 1.2rem;
+}

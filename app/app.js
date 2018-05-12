@@ -14,7 +14,6 @@ import {Nav as AppNav} from './components/app-nav'
 import {MainFrame} from './components/app-main'
 
 
-
 class App extends React.Component{
 	constructor(props){
 		super(props);

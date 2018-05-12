@@ -1,0 +1,101 @@
+{
+	/* 首页顶部的轮播图 */
+	topSliderData:[
+		'https://img1.doubanio.com/view/site/large/public/a08a5ab3f8bc64b.jpg',
+		'https://img1.doubanio.com/view/site/large/public/6a2319e9fb0dcb8.jpg',
+		'https://img3.doubanio.com/view/site/large/public/86d5a4639581c42.jpg',
+		'https://img1.doubanio.com/view/site/large/public/99018ed243eb087.jpg',
+		'https://img3.doubanio.com/view/site/large/public/40f2f5412fe6cd0.jpg'
+	],
+
+	/* 本周流行音乐人、上升最快音乐人 */
+	artists:{
+		weekBest:[
+			{
+				'name':'王吕安',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'Lyan Heny',
+				'url':'https://img3.doubanio.com/view/site/large/public/86d5a4639581c42.jpg',
+				'lyric':'one girl coming is very pretty',
+				'style':'民谣'
+			},{
+				'name':'Yuuy Elly',
+				'url':'https://img1.doubanio.com/view/site/large/public/99018ed243eb087.jpg',
+				'lyric':'Hooky woman in the street and there is nothing',
+				'style':'摇滚'
+			},{
+				'name':'韵觞',
+				'url':'https://img1.doubanio.com/view/site/large/public/a08a5ab3f8bc64b.jpg',
+				'lyric':'放荡不羁 游荡死亡 却发现生活还要继续务实',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/6a2319e9fb0dcb8.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王🐶二',
+				'url':'https://img1.doubanio.com/view/site/large/public/6a2319e9fb0dcb8.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			}
+		],
+		weekProgress:[
+			{
+				'name':'武藏',
+				'url':'https://img1.doubanio.com/view/site/large/public/901fbfef74e72b8.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'天道',
+				'url':'https://img3.doubanio.com/view/site/large/public/322c03e03ee1260.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img3.doubanio.com/view/site/large/public/40f2f5412fe6cd0.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/bbd9cceb8bcf598.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			},{
+				'name':'王二',
+				'url':'https://img1.doubanio.com/view/site/large/public/0827c8b8ccac869.jpg',
+				'lyric':'这是个美好的故事',
+				'style':'摇滚'
+			}
+		]
+	},
+
+}

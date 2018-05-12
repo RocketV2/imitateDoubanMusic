@@ -8,11 +8,16 @@
 .main-content{
 	width: 60rem;
 	float: left;
-	background-color: #ddd;
+	margin: 3rem 0;
 }
 
 .main-sidebar{
 	width: 25rem;
 	float: right;
+	margin: 3rem 0;
 	background-color: #dfd;
+}
+
+.main-bottom{
+	clear: both;
 }

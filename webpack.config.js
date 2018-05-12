@@ -27,12 +27,15 @@ module.exports = {
 
 	// 模块查找规则
 	resolve: {
-		extensions: [".js", ".json", ".jsx", ".css"]
+		extensions: [".js", ".json", ".jsx", ".css",'.json5']
 	},
 
 	// 配置DevServer
 	devServer:{
 		contentBase: '/build',
+		proxy: {
+		  "/": "https://doubanio.com/"
+		}
 	},
 
 	// 配置需要的loader
@@ -48,6 +51,14 @@ module.exports = {
 			},{
 				test: /(\.png|\.jpg|\.gif)$/,
 				use: ["file-loader"],
+				exclude: /node_modules/
+			},{
+				test: /\.json$/,
+				use: ["json-loader"],
+				exclude: /node_modules/
+			},{
+				test: /\.json5$/,
+				use: ["json5-loader"],
 				exclude: /node_modules/
 			}
 
