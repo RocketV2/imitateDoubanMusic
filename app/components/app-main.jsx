@@ -9,7 +9,8 @@ import SliderSimple from "./sliderSimple/index"
 import SliderPro from "./sliderPro/index"
 
 import TopInfo from "./navComs/topInfo"
-import MusicanGroup from "./navComs/MusicanGroup"
+import MusicanGroup from "./navComs/musicanGroup"
+import WeekRank from "./navComs/weekRank"
 // 导入json5
 import jsonData from '../jsons/singerInfo.json5'
 
@@ -36,6 +37,7 @@ class MainFrame extends React.Component{
 				<div className="main-sidebar">
 					<TopInfo />
 					<MusicanGroup />
+					<WeekRank jsonData={jsonData}/>
 				</div>
 
 				{/*底部信息区*/}

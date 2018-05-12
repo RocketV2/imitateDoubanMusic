@@ -24,6 +24,7 @@ export default class MusicanGroup extends React.Component{
 				<ul className="musican-list">
 					{typeItem}
 				</ul>
+				<div style={ {clear:'both'} }></div>
 			</div>
 		)
 	}
