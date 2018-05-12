@@ -1,0 +1,156 @@
+
+
+.slider-pro-wrap{
+	width: 60rem;
+	margin-bottom: 3rem;
+}
+
+/*标题*/
+.slider-pro-title{
+	position: relative;
+}
+.slider-pro-title p{
+	margin: 0 0 3.5px 0;
+	padding: 0;
+	font-size: 1.5rem;
+}
+.slider-pro-btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.slider-pro-btn a{
+	text-decoration: none;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #139d72;
+	margin: 3px 2px;
+	background-size: 50% 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slider-pro-btn a[data-type='left']{
+	background-image: url(./icons/left.png);
+}
+.slider-pro-btn a[data-type='left']:hover{
+	opacity: 0.6;
+	background-image: url(./icons/left-active.png);
+}
+.slider-pro-btn a[data-type='right']{
+	background-image: url(./icons/right.png);
+}
+.slider-pro-btn a[data-type='right']:hover{
+	opacity: 0.6;
+	background-image: url(./icons/right-active.png);
+}
+.slider-pro-btn-active{
+	opacity: 0.6;
+}
+
+
+/*下部内容*/
+.slider-pro-content-wrap{
+	width: 60rem;
+	height: 35rem;
+	box-sizing: border-box;
+	padding: 1.5rem 0 1.5rem 3rem;
+	/*border: 1px solid black;*/
+	border-top: 2px solid #139d72;
+	background-color: #f5f7f8;
+	position: relative;
+	overflow: hidden;
+}
+.slider-pro-content{
+	width: 114rem;
+	height: 100%;
+	position: absolute;
+	left: 3rem;/* 3*12=36px */
+}
+
+/********singleInfo中的样式*********/
+
+.single-info-wrap{
+	background-color: #fff;
+	width: 16rem;
+	height: 32rem;
+	position: relative;
+	float: left;
+	padding: 1rem;
+	box-sizing: border-box;
+	margin-right: 3rem;
+}
+.single-info-img{
+	width: 14rem;
+	height: 15rem;
+	position: relative;
+}
+.single-info-img img{
+	width: 100%;
+	height: 100%;
+}
+.single-info-shadow{
+	position: absolute;
+	top: 0;
+	width: 14rem;
+	height: 15rem;
+	opacity: 0.6;
+	z-index: 999;
+	background-color: #000;
+	color: #fff;
+	display: none;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+/*标题*/
+.single-info-singer{
+	margin-top: 1rem;
+}
+.single-info-singer p{
+	color: #139D72;
+	font-size: 1.2rem;
+	margin: 0.5rem 0 1rem 0;
+}
+/*作品介绍*/
+.single-info-detail p{
+	font-size: 1rem;
+	margin-top: 0.5rem;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    white-space: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

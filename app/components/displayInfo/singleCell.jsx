@@ -2,9 +2,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-// 引入组件的样式
-import './style/singleCell'
-
 class SingleCell extends React.Component{
 	constructor(){
 		super(...arguments)

@@ -1,0 +1,44 @@
+
+
+.musican-wrap{
+	width: 25rem;
+	margin-bottom: 3rem;
+}
+
+.musican-title{
+	position: relative;
+}
+.musican-title h3{
+	margin: 0;
+	font-size: 15px;
+    color: #222;
+}
+.musican-title a{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 13px;
+    color: #999;
+    line-height: 22px;
+}
+
+.musican-list{
+	width: 100%;
+}
+
+.musican-list li{
+	width: 12.5rem;
+	box-sizing: border-box;
+	height: 3rem;
+	line-height: 3rem;
+	color: #138A64;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    float: left;
+    border-top: 1px solid #F8F6F6;
+    border-bottom: 1px solid #F8F6F6;
+    border-right: 1px solid #F8F6F6;
+}
+.musican-list li:hover{
+	background-color: #eff3f2;
+}

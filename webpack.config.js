@@ -27,7 +27,7 @@ module.exports = {
 
 	// 模块查找规则
 	resolve: {
-		extensions: [".js", ".json", ".jsx", ".css",'.json5']
+		extensions: [".js",".jsx", ".json", ".css",'.json5']
 	},
 
 	// 配置DevServer

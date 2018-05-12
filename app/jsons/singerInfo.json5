@@ -98,4 +98,44 @@
 		]
 	},
 
+	/* 推荐编辑 */
+	editors:[
+		{
+			url:'https://img3.doubanio.com/view/music_index_feature/mid/public/c62824.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: '111The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+		{
+			url:'https://img3.doubanio.com/view/music_index_feature/mid/public/c62743.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: 'The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+		{
+			url:'https://img1.doubanio.com/view/music_index_feature/mid/public/c62627.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: 'The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+		{
+			url:'https://img3.doubanio.com/view/music_index_feature/mid/public/c62506.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: '444The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+		{
+			url:'https://img3.doubanio.com/view/music_index_feature/mid/public/c62420.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: 'The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+		{
+			url:'https://img3.doubanio.com/view/site/large/public/86d5a4639581c42.jpg',
+			info:'a lovely songe , you will be fond of this song',
+			name: 'The Rolling Stone',
+			profile: '这是一张极度富有张力的专辑；作者潜心创作，将自己的生活点点滴滴的感悟融入到曲调中；'
+		},
+	],
+
 }
