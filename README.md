@@ -13,6 +13,9 @@
 
 #### 运行项目
 > `git clone` 项目
+
 > `npm install`
+
 > `npm run start` 
+
 > 浏览器访问 http://localhost:8080 即可
