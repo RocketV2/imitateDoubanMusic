@@ -2,6 +2,7 @@
 
 import React from "react"
 import ReactDOM from "react-dom"
+import PropTypes from "prop-types"
 
 import './style.css'
 
@@ -153,4 +154,20 @@ export default class SliderSimple extends React.Component{
 		)
 	}
 }
+
+// 对props传入值 类型检测
+SliderSimple.propTypes = {
+	jsonData: PropTypes.object.isRequired
+}
+
+
+
+
+
+
+
+
+
+
+
 

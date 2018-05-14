@@ -33,9 +33,6 @@ module.exports = {
 	// 配置DevServer
 	devServer:{
 		contentBase: '/build',
-		proxy: {
-		  "/": "https://doubanio.com/"
-		}
 	},
 
 	// 配置需要的loader

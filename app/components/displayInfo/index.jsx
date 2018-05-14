@@ -2,6 +2,7 @@
 
 import React from "react"
 import ReactDOM from "react-dom"
+import PropTypes from "prop-types"
 
 // 引入组件的样式
 import './style.css'
@@ -126,4 +127,8 @@ class DisplayInfo extends React.Component{
 	}
 }
 
+DisplayInfo.propTypes = {
+	jsonData: PropTypes.object.isRequired,
+	comType: PropTypes.string.isRequired
+}
 export {DisplayInfo}

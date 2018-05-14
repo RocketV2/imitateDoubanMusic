@@ -3,6 +3,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+
 // 引入组件
 import {DisplayInfo} from "./displayInfo/index"
 import SliderSimple from "./sliderSimple/index"
@@ -21,7 +22,7 @@ class MainFrame extends React.Component{
 	}
 
 	render(){
-
+		
 		return(
 			<div className="main-wrap">
 				{/*中间内容展示区*/}
