@@ -42,6 +42,10 @@ export default class SliderSimple extends React.Component{
 		} , 1500)
 	}
 
+	shouldComponentUpdate(nextProps,nextState){
+		return (this.state.activeMarkId !== nextState.activeMarkId || this.state.moveDistance.left !== nextState.moveDistance.left)
+	}
+
 	/**
 	 * [changePicEvent 点击切换图片触发事件]
 	 * @param  {[type]} e [description]
